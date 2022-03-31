@@ -7,7 +7,7 @@ type LogInCandidateProps={
     myHandlerUsercheck:()=>void ,
     myHandlerAdmin:()=> void ,
     myHanderCapcha:()=> void ,
-    myState:any ,
+    myState:{ExamTime:number,UserCheck:{UserCheckError?:string,UserID:string, Password:string, CapchaEntered?:string} } ,
     text: String,
     handleFocusInput:()=> void ,
     handleBlurInput:()=> void ,
@@ -16,7 +16,7 @@ type LogInCandidateProps={
 function LogInCandidate(props:LogInCandidateProps) {
     const captcha = useSelector((state:{Examination:{Capcha:string}}) => state.Examination.Capcha)
     const {myHandlerUsercheck,myHandlerAdmin,myHanderCapcha,myState,text,handleFocusInput,handleBlurInput} = props;
-    console.log('i am LogInCandidate');
+    console.log('i am LogInCandidate', myState);
 
 
     let UserCheck = myState.UserCheck;

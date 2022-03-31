@@ -258,7 +258,6 @@ function Register1() {
                             </select>
                         </div>
                         {(RegData.Error.Exam) ? <span className="text-danger">{RegData.Error.Exam}</span> : null}
-
                     </div>
                     <div className="w-100 text-center">
                         <input type="submit" value="Submit" className="btn btn-success btn-sm my-3"></input>
