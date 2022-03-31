@@ -1,7 +1,8 @@
 MyMockTestApp-WithRedux
 this is my Finalized MockTestApp ReactApp With Json-server using FakeAPI
 
-Project Details :
+Project Details : 
+# project Code is in Master Branch please check it and follow below instruction to run project
 
 Project Name : Mock-Test Application
 
