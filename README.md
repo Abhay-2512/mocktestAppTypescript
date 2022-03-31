@@ -19,7 +19,9 @@ Description : This Application useful to Education Institutes and Teachers as we
 
 Guidelines to run MocktestApp Project
 
-install: npm install
-install: npm i -g json-server
-to watch json file run : npx json-server --watch db.json --port 3006
+# install: npm install
+# install: npm i -g json-server
+
+to watch json file run : 
+# npx json-server --watch db.json --port 3006
 Ready to Use MockTest App
